@@ -1,5 +1,11 @@
 {
   "plugins": [
+    ["transform-es2015-modules-umd", {
+      "globals": {
+        "react": "React",
+        "consolidated-events": "ConsolidatedEvents"
+      }
+    }],
     "transform-react-jsx",
     "add-module-exports"
   ],
